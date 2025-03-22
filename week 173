@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Declare and read input values
+    int A, B;
+    cin >> A >> B;
+
+    // Calculate total penalty directly in the condition
+    if (A + 10 * B >= 100) {
+        cout << "Yes" << endl;
+    } else {
+        cout << "No" << endl;
+    }
+
+    return 0;
+}
